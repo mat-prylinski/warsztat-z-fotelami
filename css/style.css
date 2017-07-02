@@ -95,3 +95,109 @@ nav {
 .main-nav-li:hover .secondary-nav {
     display: inline-block;
 }
+.welcome {
+    /*padding-top: 135px;*/
+    height: 500px;
+    background: rgba(253,253,253,1);
+background: -moz-linear-gradient(top, rgba(253,253,253,1) 0%, rgba(203,206,213,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(253,253,253,1)), color-stop(100%, rgba(203,206,213,1)));
+background: -webkit-linear-gradient(top, rgba(253,253,253,1) 0%, rgba(203,206,213,1) 100%);
+background: -o-linear-gradient(top, rgba(253,253,253,1) 0%, rgba(203,206,213,1) 100%);
+background: -ms-linear-gradient(top, rgba(253,253,253,1) 0%, rgba(203,206,213,1) 100%);
+background: linear-gradient(to bottom, rgba(253,253,253,1) 0%, rgba(203,206,213,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#cbced5', GradientType=0 );
+}
+.inside-welcome {
+    margin-top: 135px;
+    display: inline;
+    float: left;
+}
+.slide-left {
+    margin-top: 190px;
+    font-size: 85px;
+    font-weight: normal;
+    color: #27c7ab;
+}
+.slide-left:hover {
+    color: #2ca48f;
+}
+.slide-left:active {
+    color: #328f7f;
+}
+#welcome-img {
+    margin-top: 85px;
+}
+#welcome-img img{
+    width: 500px;
+}
+.welcome-info {
+    text-align: center;
+    width: 500px;
+}
+#welcome-head {
+    font-size: 36px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+#welcome-head .welcome-head-span {
+    color: #27c7ab;
+    font-weight: bold;
+}
+.welcome-info article p {
+    margin-top: 36px;
+    margin-bottom: 26px;
+}
+button {
+    width: 265px;
+    height: 55px;
+    font-family: "Raleway", Helvetica, serif;
+    font-size: 25px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: white;
+    background-color: #27c7ab;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0;
+    outline: 0;
+}
+button:hover {
+    color: grey;
+    border: none;
+    box-shadow: 0;
+    outline: 0;
+}
+button:active {
+    background-color: #2ca48f;
+    border: none;
+    box-shadow: 0;
+    outline: 0;
+}
+button:visited {
+    width: 265px;
+    height: 55px;
+    font-family: "Raleway", Helvetica, serif;
+    font-size: 25px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: white;
+    background-color: #27c7ab;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0;
+    outline: 0;
+}
+
+.slide-rigth {
+    margin-top: 190px;
+    font-size: 85px;
+    font-weight: normal;
+    color: #27c7ab;
+    float: right;
+}
+.slide-rigth:hover {
+    color: #2ca48f;
+}
+.slide-rigth:active {
+    color: #328f7f;
+}
