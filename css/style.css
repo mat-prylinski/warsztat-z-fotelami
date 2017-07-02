@@ -239,7 +239,7 @@ button:visited {
     padding-top: 15px;
     width: 145px;
     font-size: 15px;
-    border-bottom: 5px solid #27c7ab;
+    border-bottom: 7px solid #27c7ab;
 }
 .product-head span {
     text-transform: uppercase;
@@ -260,7 +260,7 @@ button:visited {
 .product-description article h1{
     width: 145px;
     font-size: 15px;
-    border-bottom: 5px solid #27c7ab;
+    border-bottom: 7px solid #27c7ab;
 }
 .product-description article p{
     margin-top: 15px;
@@ -281,4 +281,202 @@ button:visited {
 }
 .shown {
     display: inline-block;
+}
+.plans{
+    height: 725px;
+    background-color: #f1f1f1;
+}
+.plans-head{
+    padding-top: 50px;
+    width: 320px;
+    font-size: 21px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #5a5a5a;
+    border-bottom: 7px solid #27c7ab;
+}
+.plan-list {
+    margin-top: 60px;
+}
+.plan {
+    width: 329px;
+    height: 500px;
+    float: left;
+    position: relative;
+    text-align: center;
+    border: 1px solid #c2c2c2;
+    background-color: #f9f9f9;
+}
+.circle {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #c2c2c2;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    left: 135px;
+    top: -30px;
+}
+.circle-inner {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #c2c2c2;
+    background-color: #c2c2c2;
+    border-radius: 50%;
+    position: absolute;
+    left: 14px;
+    top: 14px;
+}
+.plan h1 {
+    margin: 35px;
+    font-size: 25px;
+    font-weight: normal;
+    color: #27c7ab;
+    text-transform: uppercase;
+}
+.price {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 1px solid #c2c2c2;
+    background-color: #ffffff;
+    position: absolute;
+    left: 100px;
+}
+.price p {
+    padding-top: 25px;
+    color: #c2c2c2;
+    text-transform: uppercase;
+}
+.price p span{
+    font-size: 40px;
+    font-weight: bold;
+}
+.price p span sup {
+    font-size: 20px;
+}
+.service-list {
+    width: 327px;
+    position: absolute;
+    top: 250px;
+
+}
+.service-list ul li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    list-style-type: none;
+    font-size: 25px;
+}
+.service-list ul li:nth-child(2n+1){
+    background-color: #e4e4e4;
+    color: #a9a9a9;
+}
+.service-list ul li:nth-child(2n){
+    background-color: #f1f1f1;
+    color: #828282;
+}
+.pushme {
+    width: 125px;
+    height: 35px;
+    background-color: #27c7ab;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    line-height: 35px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 100px;
+    bottom: 20px;
+}
+.plan-second {
+    width: 329px;
+    height: 500px;
+    margin-left: 76.5px;
+    margin-right: 76.5px;
+    float: left;
+    position: relative;
+    text-align: center;
+    border: 1px solid #27c7ab;
+    background-color: #27c7ab;
+}
+.circle-second {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #27c7ab;
+    background-color: #27c7ab;
+    border-radius: 50%;
+    position: absolute;
+    left: 135px;
+    top: -30px;
+}
+.circle-inner-second {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 14px;
+    top: 14px;
+}
+.plan-second h1 {
+    margin: 35px;
+    font-size: 25px;
+    font-weight: normal;
+    color: white;
+    text-transform: uppercase;
+}
+.price-second {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 1px solid #27c7ab;
+    background-color: #ffffff;
+    position: absolute;
+    left: 100px;
+}
+.price-second p {
+    padding-top: 25px;
+    color: #27c7ab;
+    text-transform: uppercase;
+}
+.price-second p span{
+    font-size: 40px;
+    font-weight: bold;
+}
+.price-second p span sup {
+    font-size: 20px;
+}
+.service-list-second {
+    width: 327px;
+    position: absolute;
+    top: 250px;
+
+}
+.service-list-second ul li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    list-style-type: none;
+    font-size: 25px;
+}
+.service-list-second ul li:nth-child(2n+1){
+    background-color: #ffffff;
+    color: #a9a9a9;
+}
+.service-list-second ul li:nth-child(2n){
+    background-color: #f1f1f1;
+    color: #a9a9a9;
+}
+.pushme-second {
+    width: 125px;
+    height: 35px;
+    background-color: white;
+    border-radius: 5px;
+    color: #27c7ab;
+    font-size: 20px;
+    line-height: 35px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 100px;
+    bottom: 20px;
 }
