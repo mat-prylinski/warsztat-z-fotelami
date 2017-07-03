@@ -286,7 +286,7 @@ button:visited {
     height: 725px;
     background-color: #f1f1f1;
 }
-.plans-head{
+.section-head{
     padding-top: 50px;
     width: 320px;
     font-size: 21px;
@@ -388,6 +388,12 @@ button:visited {
     left: 100px;
     bottom: 20px;
 }
+.pushme:hover {
+    color: grey;
+}
+.pushme:active {
+    background-color: #2ca48f;
+}
 .plan-second {
     width: 329px;
     height: 500px;
@@ -480,19 +486,88 @@ button:visited {
     left: 100px;
     bottom: 20px;
 }
-.footer {
-    height: 50px;
+.pushme-second:hover {
+    color: #2ca48f;
+}
+.pushme-second:active {
+    background-color: grey;
+}
+.contact{
     background-color: #ffffff;
+    height: 540px;
+}
+.form-text {
+    width: 710px;
+    margin-top: 60px;
+    float: left;
+}
+.form-input {
+    display: block;
+}
+.form-text input {
+    width: 670px;
+    height: 65px;
+    border: 1px solid #27c7ab;
+    font-family: "Raleway", Helvetica, serif;
+    font-size: 35px;
+    padding-left: 10px;
+    margin-bottom: 25px;
+}
+.form-text input::placeholder {
+    color: #cdcdcd;
+}
+textarea{
+    width: 670px;
+    height: 190px;
+    border: 1px solid #27c7ab;
+    font-family: "Raleway", Helvetica, serif;
+    font-size: 35px;
+    padding-left: 10px;
+    resize: none;
+}
+textarea::placeholder {
+    color: #cdcdcd;
+}
+.form-submit {
+    width: 430px;
+    margin-top: 60px;
+    float: right;
+}
+.form-submit figure{
+    margin-left: 105px;
+}
+.checkbox{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#submit {
+    margin-top: 42px;
+    margin-left: 70px;
+    width: 345px;
+    height: 75px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #27c7ab;
+    font-family: "Raleway", Helvetica, serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.footer {
+    height: 100px;
+    background-color: #ffffff;
+    margin-top: 20px;
 }
 .copyright {
     font-size: 16px;
-    line-height: 50px;
+    line-height: 80px;
     color: #969696;
     float: left;
 }
 .social-media {
     margin-right: 70px;
-    line-height: 50px;
+    margin-top: 20px;
     display: inline;
     float: right;
 }
@@ -501,7 +576,7 @@ button:visited {
 }
 .logo-footer {
     height: 50px;
-    line-height: 50px;
+    line-height: 80px;
     font-size: 20px;
     color: #969696;
     float: right;

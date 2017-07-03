@@ -126,7 +126,7 @@
     <section class="section plans">
         <div class="wrapper clearfix">
             <div>
-                <h1 class="plans-head">Cennik</h1>
+                <h1 class="section-head">Cennik</h1>
             </div>
             <div class="plan-list">
                 <div class="plan">
@@ -211,20 +211,22 @@
     <section class="section contact">
         <div class="wrapper clearfix">
             <div>
-                <h1>Kontakt</h1>
+                <h1 class="section-head">Kontakt</h1>
             </div>
             <form>
-                <div>
-                    <input type="text" name="name" id="name" placeholder="Imię" />
-                    <input type="email" name="email" id="email" placeholder="E-mail" />
-                    <textarea minlength="10" maxlength="500" name="message" id="message" placeholder="Wiadomość"></textarea>
+                <div class="form-text">
+                    <input type="text" name="name" class="form-input" id="name" placeholder="Imię" />
+                    <input type="email" name="email" class="form-input" id="email" placeholder="E-mail" />
+                    <textarea minlength="10" maxlength="500" name="message" class="form-input" id="message" placeholder="Wiadomość"></textarea>
                 </div>
-                <div>
-                    <figure>
+                <div class="form-submit">
+                    <figure class="form-input" >
                         <img src="images/red_chair.png" />
                     </figure>
-                    <!-- tu dodać checkbox -->
-                    <input type="submit" value="Wyślij" />
+                    <div class="checkbox">
+                        <input type="checkbox" name="consent" value="yes" />Zgadzam się na przetwarzanie danych osobowych
+                    </div>
+                    <input type="submit" class="form-input" id="submit" value="Wyślij" />
                 </div>
             </form>
         </div>
@@ -242,18 +244,18 @@
                     Sit <span>on</span> chair
                 </p>
             </div>
-            <div class="social-media"> <!-- ustawić linki do portali społecznościowych -->
+            <div class="social-media">
                 <figure>
-                    <img src="images/flickr.png"  />
+                    <a href="https://www.flickr.com/" target="_blank"><img src="images/flickr.png" /></a>
                 </figure>
                 <figure>
-                    <img src="images/vimeo.png" />
+                    <a href="https://vimeo.com/" target="_blank"><img src="images/vimeo.png" /></a>
                 </figure>
                 <figure>
-                    <img src="images/pinterest.png" />
+                    <a href="https://pl.pinterest.com/" target="_blank"><img src="images/pinterest.png" /></a>
                 </figure>
                 <figure>
-                    <img src="images/twitter.png" />
+                    <a href="https://twitter.com/?lang=pl" target="_blank"><img src="images/twitter.png" /></a>
                 </figure>
             </div>
         </div>
