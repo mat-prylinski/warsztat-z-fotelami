@@ -216,15 +216,17 @@
             <form>
                 <div class="form-text">
                     <input type="text" name="name" class="form-input" id="name" placeholder="Imię" />
-                    <input type="email" name="email" class="form-input" id="email" placeholder="E-mail" />
+                    <input type="email" name="email" class="form-input" id="email" placeholder="E-mail" /><!-- świadomie wpisuję "E-mail", czyli inaczej niż w jpg, bo ładniej wygląda -->
                     <textarea minlength="10" maxlength="500" name="message" class="form-input" id="message" placeholder="Wiadomość"></textarea>
                 </div>
                 <div class="form-submit">
                     <figure class="form-input" >
                         <img src="images/red_chair.png" />
                     </figure>
-                    <div class="checkbox">
-                        <input type="checkbox" name="consent" value="yes" />Zgadzam się na przetwarzanie danych osobowych
+                    <div class="consent">
+                        <input type="checkbox" id="checkbox" name="checkbox" checked>
+                        <label for="checkbox" id="false-label"></label>
+                        <label for="checkbox" id="label">Zgadzam się na przetwarzanie dancyh osobowych</label>
                     </div>
                     <input type="submit" class="form-input" id="submit" value="Wyślij" />
                 </div>

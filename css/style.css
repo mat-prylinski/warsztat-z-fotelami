@@ -62,6 +62,7 @@ nav {
     display: inline;
     float: left;
     position: relative;
+    cursor: pointer;
 }
 .secondary-nav {
     width: 115px;
@@ -117,12 +118,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', end
     font-size: 85px;
     font-weight: normal;
     color: #27c7ab;
+    cursor: pointer;
 }
 .slide-left:hover {
     color: #2ca48f;
+    cursor: pointer;
 }
 .slide-left:active {
     color: #328f7f;
+    cursor: pointer;
 }
 #welcome-img {
     margin-top: 85px;
@@ -160,18 +164,21 @@ button {
     border-radius: 10px;
     box-shadow: 0;
     outline: 0;
+    cursor: pointer
 }
 button:hover {
     color: grey;
     border: none;
     box-shadow: 0;
     outline: 0;
+    cursor: pointer;
 }
 button:active {
     background-color: #2ca48f;
     border: none;
     box-shadow: 0;
     outline: 0;
+    cursor: pointer;
 }
 button:visited {
     width: 265px;
@@ -186,6 +193,7 @@ button:visited {
     border-radius: 10px;
     box-shadow: 0;
     outline: 0;
+    cursor: pointer;
 }
 
 .slide-rigth {
@@ -194,12 +202,15 @@ button:visited {
     font-weight: normal;
     color: #27c7ab;
     float: right;
+    cursor: pointer;
 }
 .slide-rigth:hover {
     color: #2ca48f;
+    cursor: pointer;
 }
 .slide-rigth:active {
     color: #328f7f;
+    cursor: pointer;
 }
 .products {
     height: 350px;
@@ -387,12 +398,15 @@ button:visited {
     position: absolute;
     left: 100px;
     bottom: 20px;
+    cursor: pointer;
 }
 .pushme:hover {
     color: grey;
+    cursor: pointer;
 }
 .pushme:active {
     background-color: #2ca48f;
+    cursor: pointer;
 }
 .plan-second {
     width: 329px;
@@ -485,12 +499,15 @@ button:visited {
     position: absolute;
     left: 100px;
     bottom: 20px;
+    cursor: pointer;
 }
 .pushme-second:hover {
     color: #2ca48f;
+    cursor: pointer;
 }
 .pushme-second:active {
     background-color: grey;
+    cursor: pointer;
 }
 .contact{
     background-color: #ffffff;
@@ -530,18 +547,51 @@ textarea::placeholder {
 }
 .form-submit {
     width: 430px;
-    margin-top: 60px;
+    margin-top: 40px;
     float: right;
 }
 .form-submit figure{
     margin-left: 105px;
 }
-.checkbox{
-    margin-top: 20px;
-    margin-left: 30px;
+#checkbox {
+    display:none;
+}
+#checkbox + label{
+    border: 1px solid #27c7ab;
+    height: 50px;
+    width: 50px;
+    display:inline-block;
+    padding: 0px;
+}
+#checkbox:checked + label{
+    background:url('../images/form_ok.jpg') no-repeat;
+    background-position: center;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    padding: 0px;
+}
+.consent label:first-of-type {
+    border: 1px solid #27c7ab;
+    cursor: pointer;
+}
+.consent label:nth-of-type(2) {
+    margin-left: 10px;
+    padding-right: 2px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: normal;
+    color: #cdcdcd;
+    width: 300px;
+    position: absolute;
+}
+.consent {
+    height: 50px;
+    margin-left: 70px;
+    margin-top: 25px;
 }
 #submit {
-    margin-top: 42px;
+    margin-top: 27px;
     margin-left: 70px;
     width: 345px;
     height: 75px;
@@ -553,6 +603,7 @@ textarea::placeholder {
     font-weight: bold;
     color: #ffffff;
     text-transform: uppercase;
+    cursor: pointer;
 }
 .footer {
     height: 100px;
